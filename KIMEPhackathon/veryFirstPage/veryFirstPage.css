@@ -1,0 +1,77 @@
+img{
+    width: 99%;
+}
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*background-color: #8da48d;*/
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    height: 100px;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.card-img{
+    padding: 10px;
+    /*margin: 10px;*/
+    background-color: #ffd400;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+.text-bl{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-bl1{
+    font-weight: bold;
+}
+
+.iphone-mono{
+    width: 60%;
+    height: 60px;
+    margin-left: 20%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ffd400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.iphone-mono > * {
+    /*margin: 0 25px;*/
+}
+.sensor{
+    margin-left: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+}
+.column {
+    width: 75px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+}
+.camera{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: black;
+    margin-right: 25px;
+}
+
+a > div{
+    margin-left: 20px;
+}

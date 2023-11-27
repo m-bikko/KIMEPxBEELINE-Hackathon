@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    text-decoration: none;
+}
+.less-space {
+     line-height: 0.95; /* Устанавливаем значение line-height меньше 1 для уменьшения пространства */
+ }
+body{
+    /*background-color: #8da48d;*/
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.for-divide{
+    display: flex;
+}
+.back{
+    width: 100px;
+    height: 100px;
+}
+.credit-title{
+    margin-left: 30px;
+    font-size: 85px;
+}
+.ix{
+    width: 100px;
+    height: 100px;
+}
+.brbr{
+    width: 100%;
+    height: 3px;
+    background-color: grey;
+}
+.center{
+
+}
+.first-block > *{
+    margin-left: 50px;
+    margin-top: 45px;
+    font-size: 55px;
+}
+.main-photo{
+    width: 90%;
+}
+.after-main-logo-text-bold{
+    font-weight: bold;
+}
+.after-main-logo-text-loght{
+
+}
+.second-block{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    margin-left: 60px;
+    margin-top: 45px;
+    font-size: 40px;
+}
+.card{
+    height: 100px;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.card-img{
+    padding: 10px;
+    /*margin: 10px;*/
+    background-color: #ffd400;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+}
+.text-bl{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-bl1{
+    font-weight: bold;
+}
+.third-block{
+    margin-left: 60px;
+    margin-top: 45px;
+    font-size: 40px;
+}
+.label-cr{
+    font-weight: bold;
+}
+.bRRIER{
+    width: 80px;
+    height: 80px;
+}
+.digit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    /*padding: 15px;*/
+    border: #ffd400 solid 3px;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 50px;
+}
+.third-block-t1{
+    font-weight: bold;
+    font-size: 35px;
+}
+.third-block-t2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+.btn-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd400;
+    font-weight: bold;
+    /*border: black solid 5px;*/
+    border-radius: 15px;
+    font-size: 60px;
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+.iphone-mono{
+    width: 33%;
+    height: 80px;
+    margin-left: 33%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ffd400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.iphone-mono > * {
+    /*margin: 0 25px;*/
+}
+.sensor{
+    margin-left: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.column {
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.camera{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    margin-right: 25px;
+}
